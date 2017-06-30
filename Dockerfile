@@ -9,6 +9,8 @@ RUN apt-get update && apt-get install -y \
         libmemcached-dev \
         libpng12-dev \
         npm \
+        zip \
+        unzip \
         zlib1g-dev \
 
   # composer
