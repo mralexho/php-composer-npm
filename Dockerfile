@@ -66,3 +66,6 @@ RUN cd $(npm root -g)/npm \
 
 # Install NPM globally
 RUN /usr/bin/npm install --global npm
+
+# add composer global bin to PATH
+ENV PATH /root/.composer/vendor/bin:$PATH
